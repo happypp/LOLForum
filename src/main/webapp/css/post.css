@@ -1,0 +1,120 @@
+/* CSS Document */
+
+.middle-box {
+  padding-top:50px;
+}
+
+#post {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+/*帖子的标题*/
+#post-title {
+	margin-left: 7px;
+	width: 100%;
+	text-indent:20px;
+}
+
+#post-title a {
+	color: #222;
+}
+
+.post-contents {
+}
+
+/*帖子*/
+.post-contents .row {
+	width: 760px;
+	min-height:150px;
+	margin-top: 10px;
+	margin-left: 4px;
+	border-top-style: groove;
+	border-top-width: 1px;
+	border-top-color:rgba(149,149,149,.2);
+}
+
+.authorName{
+	color:#888;
+}
+
+.post-avatar{
+	width:45px;
+	height:45px;
+	float:left;
+	margin-top:10px;
+	margin-left:12px;
+	
+}
+
+.post-avatar img{
+	width:45px;
+	height:45px;
+}
+
+.post-content{
+	margin-left:20px;
+	margin-top:10px;
+	float: left;
+}
+
+.post-content + span{
+	margin-top:5px;
+	float:right;
+}
+
+/*回复内容*/
+.article {
+	margin-left: 77px;
+	margin-top: 40px;
+	width: 88%;
+}
+
+.article-content{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+.msg .nav{
+	background-color:#E9E9E9;
+	margin-top:70px;
+	width:680px;
+}
+
+/*主贴的其他信息（创建者+时间+浏览......）*/
+.msg li a{
+	height:60px;
+	padding-top:5px;
+	width:95px;
+}
+
+.msg li a img{
+	width:20px;
+	height:20px;
+}
+
+.msg li a h4{
+	margin-top:1px;
+	font-size:12px;
+	width:95px;
+}
+
+.msg li a p{
+	margin-left:10px;
+}
+
+#new-reply {
+  margin-bottom:10px;
+}
+
+/*编辑器*/
+#editor{
+	margin-top:20px;
+	padding-top:20px;
+}	
+
+/*热门主题*/
+#hotSubject{
+	margin-top:50px;
+}

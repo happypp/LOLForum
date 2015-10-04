@@ -1,0 +1,287 @@
+/* CSS Document */
+/*font 333333*/
+/*f0a860 ffd890 f0d8a8*/
+body {
+  font-size: 14px;
+  background-image: url(../image/body_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+p {
+  margin: 0;
+}
+.breadcrumb {background-color: rgba(0, 0, 0, 0);}
+.panel{
+  background-color:rgba(0, 0, 0, 0);
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0px;
+}
+
+a {
+  color: #676767;
+}
+
+/* overlay */
+#overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .75);
+  z-index: 900;
+  display: none;
+}
+
+/*top-box*/
+.top-box {
+  width: 100%;
+  height: 130px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 990;
+}
+
+.top-nav {
+  margin: 0 auto;
+  width: 1000px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+  padding: 0 auto;
+}
+
+.top-box .nav {
+  margin-left: 20px;
+  margin-top: 15px;
+  float: left;
+}
+
+.top-box .nav li a {
+  font-size: 25px;
+  padding: 10px 40px;
+}
+
+.top-box .nav li.active a {
+  color: #f0a860;
+}
+
+.top-box .nav li a:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #f0a860;
+}
+
+/* div user */
+#avatar-box {
+  padding-top: 3px;
+  margin-right: 15px;
+  overflow: hidden;
+  float: left;
+}
+
+#avatar {
+  width: 30px;
+  height: 30px;
+  display: none;
+  float: left;
+}
+
+.top-box .user {
+  width: 260px;
+  height: 50px;
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-top: 8px;
+  float: left;
+}
+
+.top-box .user .btn {
+  padding: 5px;
+  font-size: 18px;
+  float: left;
+}
+
+.top-box .user a:hover {
+  color: #292929;
+}
+
+.top-box .user i {
+  margin-right: 3px;
+}
+
+/* login */
+#login {
+  margin-top: 140px;
+}
+
+/* 去除关闭按钮active效果 */
+#login .modal-header button,#login .modal-header .btn,#login .modal-header button:active,#login .modal-header .btn:active,.c-close,.c-close:active
+  {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  z-index:995;
+}
+
+#login .alert {
+  display: none;
+  width: 260px;
+  margin: 0 auto 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* 登录对话框输入框前label */
+#login label.col-sm-4 {
+  font-size: 16px;
+}
+
+#login .div-checkbox {
+  margin-bottom: 5px;
+}
+
+#login .checkbox {
+  padding: 0;
+}
+
+.modal-header {
+  background-color: #f0a860;
+  border-bottom: #666;
+}
+
+/* middle-box */
+.middle-box {
+  margin: 0 auto;
+  padding:5px;
+  width: 1000px;
+  min-height: 700px;
+  background-color:rgba(255,255,255,.8);
+}
+
+.middle-box ul {
+  padding:0;
+  list-style:none;
+  overflow:hidden;
+}
+
+.middle-box ul li {
+  margin-bottom:5px;
+}
+
+.middle-box ul li a {
+  font-size:14px;
+}
+
+.middle-box ul li a:hover {
+  color:#f0a860;
+  text-decoration: none;
+}
+
+#lists {
+  width:1000px;
+  overflow:hidden;
+  padding-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#hotArt, #hotSub, #hotQ {
+  width:490px;
+  overflow:hidden;
+  float:left;
+}
+
+#icon-double {
+  position: fixed;
+  top: 560px;
+  right: 67px;
+}
+
+a#icon-double:hover {
+  color: #f0a860;
+}
+
+.pagination {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.pagination li a {
+  color: #F0902E;
+}
+
+.pagination li.active a {
+  background-color: #F0902E;
+  border-color: #F0902E;
+}
+
+.pagination li a:hover {
+  color: #E07E1A;
+}
+
+.pagination li.active a:hover {
+  background-color: #F0902E;
+  border-color: #F0902E;
+}
+
+/* bottom-box */
+.bottom-box {
+  margin: 0 auto;
+  padding: 0 0px;
+  padding-top: 100px;
+  width: 1000px;
+  min-height: 350px;
+}
+
+.bottom-box .info-box {
+  width: 200px;
+  min-height: 150px;
+  float: left;
+  overflow: hidden;
+}
+
+.bottom-box .info-box .t {
+  margin-bottom: 5px;
+  color: #CB6600;
+  font-size: 17px;
+}
+
+.bottom-box .info-box ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.bottom-box .info-box ul li {
+  padding-bottom: 5px;
+}
+
+.bottom-box .info-box ul li a:hover {
+  color: #3D3D3D;
+}
+
+.bottom-box .tec ul {
+  width: 250px;
+  display: block;
+  overflow: hidden;
+}
+
+.bottom-box .tec ul li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+.bottom-box .tec ul li .btn-default {
+  border-color: #9E9E9E;
+  padding: 4px 6px;
+}

@@ -1,0 +1,53 @@
+/* CSS Document */
+
+/* carousel 轮播 */
+#carousel {
+	width: 680px;
+	float: left;
+}
+
+#carousel img {
+	width: 680px;
+	height: 350px;
+	position: absolute;
+}
+
+.carousel-indicators { bottom: 0; }
+
+img + p {
+	color: rgba(237, 237, 237,1);
+	position: relative;
+	width: 680px;
+	height: 340px;
+	padding-top: 5px;
+	top: 290px;
+	background-color: rgba(0, 0, 0, .45);
+	text-indent: 6em;
+}
+
+/* hot热门新闻 */
+#hot {
+	width: 300px;
+	height: 350px;
+	float: right;
+}
+
+.panel-info {
+	border-color: #fff;
+}
+
+.panel-info>.panel-heading {
+	color: #f0a860;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(246, 173, 100, 0.4);
+}
+
+.panel-heading {
+	height:30px;
+	padding: 0px 15px 10px 5px;
+}
+
+.panel-title {
+	font-size: 20px;
+}
+
