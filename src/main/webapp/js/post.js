@@ -12,15 +12,13 @@ $(document).ready(function(){
             setTimeout("popoverOut($(\"#new-reply\"))", 2000);
             return;
         }
-		
         var sid = $("#post").data("sid");
         var uid = $("#avatar").data("uid");
-		
+
 		var content = $("#summernote").code();
-		
         if (content.length > 11) {
 			var url = getProjectRootPath() +"/discuss/subject/savePost";
-			alert(url);
+			//alert(url);
             $.postJSON(url, {
                 uid: uid,
                 sid: sid,
@@ -46,7 +44,6 @@ $(document).ready(function(){
     // 加载发帖人头像
     var imageUrl = $(".subjectAvatar").attr("data-avatar");
     if (imageUrl != null && imageUrl.length > 0) {
-    
         $(".subjectAvatar").attr("src", getRootPath() + imageUrl);
     }
     //加载回复帖子人的头像

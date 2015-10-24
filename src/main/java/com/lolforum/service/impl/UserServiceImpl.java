@@ -1,12 +1,11 @@
 package com.lolforum.service.impl;
 
-import java.util.List;
-
-import org.springframework.stereotype.Service;
-
 import com.lolforum.dao.impl.BaseDaoImpl;
 import com.lolforum.entities.User;
 import com.lolforum.service.UserService;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service("userService")
 public class UserServiceImpl extends BaseDaoImpl<User> implements UserService {

@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="<c:url value="/css/subject.css" />">
 </head>
 <body>
+
 	<%@ include file="part/header.jsp"%>
 	<a id="pin"></a>
 	<div class="middle-box" data-pageid="3">
@@ -62,7 +63,7 @@
 			    $(".table img").each(function(index, element){
 			        var imageUrl = $(this).data("image");
 			        if (imageUrl != null && imageUrl.length > 0) {
-			            $(this).attr("src", getRootPath() + imageUrl);
+			            $(this).attr("src", getAvatarImage() + imageUrl);
 			        }
 			    });
 				</script>

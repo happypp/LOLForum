@@ -46,4 +46,9 @@ $.postJSON = function(url, data, callback){
 function isLogin(){
  return !$("#avatar").attr("data-uid") == "";
 }
+
+
+function getAvatarImage(){
+    return "http://7xnrbp.com1.z0.glb.clouddn.com/@";
+}
 </script>

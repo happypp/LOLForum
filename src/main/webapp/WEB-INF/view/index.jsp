@@ -11,6 +11,7 @@
 
 </head>
 <body>
+
 	<%@ include file="part/header.jsp"%>
 	<a id="pin"></a>
 	<div class="middle-box c-box" data-pageid="1">

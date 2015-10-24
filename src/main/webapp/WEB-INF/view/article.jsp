@@ -1,5 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!doctype html>
 <html lang="zh-CN">
 <head>
@@ -90,7 +91,7 @@ body {
 				<address>
 					<ol class="breadcrumb">
 						<li>时间：${article.time }</li>
-						<li>来源：${article.source }</li>
+						<li>${article.source }</li>
 					</ol>
 				</address>
 				<div class="a-content">${article.content }</div>

@@ -1,20 +1,12 @@
 package com.lolforum.service.impl;
 
-import java.sql.Timestamp;
-import java.util.List;
-
+import com.lolforum.dao.impl.BaseDaoImpl;
+import com.lolforum.entities.Post;
+import com.lolforum.service.PostService;
 import org.hibernate.Session;
 import org.springframework.stereotype.Service;
 
-import com.lolforum.dao.impl.BaseDaoImpl;
-import com.lolforum.entities.Post;
-import com.lolforum.entities.Subject;
-import com.lolforum.entities.User;
-import com.lolforum.service.PostService;
-import com.lolforum.service.SubjectService;
-import com.lolforum.service.UserService;
-import com.lolforum.vo.SubjectVO;
-import com.lolforum.vo.SubjectVO.UserPost;
+import java.util.List;
 
 @Service("postService")
 public class PostServiceImpl extends BaseDaoImpl<Post> implements

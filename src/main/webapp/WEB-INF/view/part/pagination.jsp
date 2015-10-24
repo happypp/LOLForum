@@ -1,7 +1,7 @@
 <ul class="pagination center-block">
 	<li id="pre"><a
-		href="<c:url value="${urlSubfix }/${page.currentIndex-1<1?1:page.currentIndex-1 }"/>"
-	/>&laquo;</a></li>
+			href="<c:url value="${urlSubfix }/${page.currentIndex-1<1?1:page.currentIndex-1 }"/>"
+			>&laquo;</a></li>
 	<c:forEach items="${page.navItems }" var="item">
 		<li><a
 			href="<c:url value="${urlSubfix }/${item }" />"

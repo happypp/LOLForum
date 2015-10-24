@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+
 <div class="top-box">
 	<nav class="top-nav">
 		<a id="logo" href=""> <img src="<c:url value="/image/logo.png" />" alt="LOLForum" />
@@ -21,7 +22,7 @@
 				// 加载头像
 					var imageUrl = $("#avatar").attr("data-avatar");
 					if (imageUrl != null && imageUrl.length > 0) {
-						$("#avatar").attr("src", getRootPath() + imageUrl);
+						$("#avatar").attr("src", getAvatarImage() + imageUrl);
 						$("#avatar-box .btn").hide();
 						$("#avatar").show();
 					}

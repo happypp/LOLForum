@@ -1,18 +1,16 @@
 package com.lolforum.controller;
 
-import java.util.List;
-
-import javax.annotation.Resource;
-
+import com.lolforum.constant.Constant;
+import com.lolforum.entities.Article;
+import com.lolforum.service.ArticleService;
+import com.lolforum.util.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.lolforum.constant.Constant;
-import com.lolforum.entities.Article;
-import com.lolforum.service.ArticleService;
-import com.lolforum.util.Page;
+import javax.annotation.Resource;
+import java.util.List;
 
 @Controller
 @RequestMapping("/article")
@@ -20,6 +18,11 @@ public class ArticleController {
 	
 	@Resource
 	private ArticleService articleService;
+
+
+
+
+
 	
 	@RequestMapping("/list/{pageIndex}")
 	public ModelAndView articleList(@PathVariable Integer pageIndex){
