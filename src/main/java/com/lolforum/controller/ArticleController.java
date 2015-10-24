@@ -18,12 +18,7 @@ public class ArticleController {
 	
 	@Resource
 	private ArticleService articleService;
-
-
-
-
-
-
+	
 	@RequestMapping("/list/{pageIndex}")
 	public ModelAndView articleList(@PathVariable Integer pageIndex){
 		ModelAndView mv = new ModelAndView("articleList");
