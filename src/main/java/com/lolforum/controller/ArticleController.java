@@ -23,7 +23,7 @@ public class ArticleController {
 
 
 
-	
+
 	@RequestMapping("/list/{pageIndex}")
 	public ModelAndView articleList(@PathVariable Integer pageIndex){
 		ModelAndView mv = new ModelAndView("articleList");
